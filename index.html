@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="hu">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Kezdőlap - NeoTV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <img src="_kepek/_logo.png" alt="logó" style="height: 70px;">
+      <h1>NeoTV</h1>
+      <button id="theme-toggle" class="theme-toggle">🌙 Mód váltás</button>
+    </header>
+      <nav>
+        <a href="index.html"><button>Kezdőlap</button></a>
+        <a href="musorok.html"><button>Műsorok</button></a>
+        <a href="videok.html"><button>Videók</button></a>
+        <a href="galeria.html"><button>Galéria</button></a>
+        <a href="kapcsolat.html"><button>Kapcsolat</button></a>
+      </nav>
+    <main>
+      <section>
+        <h2>Üdvözlünk!</h2>
+        <p>
+          Fedezd fel velünk a legfrissebb híreket, műsorajánlókat és exkluzív tartalmakat! <br> Oldalunk célja, hogy naprakészen tájékoztasson mindenről, ami a kedvenc műsoraid körül történik.
+        </p>
+        <button
+          class="tobb-btn"
+          onclick="document.getElementById('rolunk-section').scrollIntoView({ behavior: 'smooth' })"
+        >
+          Tudj meg többet
+        </button>
+      </section>
+      <br />
+      <br />
+      <br />
+
+      <section class="ajanlo">
+        <h2>Ajánló</h2>
+      
+        <div class="ajanlo-kontener">
+          <div class="hirado-kartya">
+            <img src="_kepek/hirado_insert.jpg" alt="Híradó Extra" class="ajanlo-kep">
+            <h3>Híradó Extra</h3>
+            <p>Új idősávban, megújult tartalommal!</p>
+          </div>
+      
+          <div class="kicsik-kontener">
+              <div class="ajanlo-kartya">
+                <a href="musorok.html" class="ajanlo-link">
+                  <h3>Premier Ma Este</h3>
+                  <p>Ne hagyd ki az új sorozatot, 20:00-kor!</p>
+                </a>
+              </div>
+            
+            <div class="ajanlo-kartya">
+              <a href="https://forms.gle/9ShKMv14dUudyLeMA" class="ajanlo-link" target="_blank">
+                <h3>Rajtad a sor</h3>
+              <p>Interaktív vetélkedő - jelentkezz online!</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <br />
+      <br />
+      <br />
+      <br />
+
+      <section class="rolunk-section" id="rolunk-section">
+        <h2>Rólunk</h2>
+        <p>
+          A <strong>NeoTV</strong> 2005-ben alakult azzal a céllal, hogy új
+          színt vigyen a magyar televíziózás világába. <br />
+          Kezdetben egy kis stúdióval és pár lelkes műsorkészítővel indultunk,
+          de az évek során egy országos lefedettségű, digitális médiaóriássá
+          nőttük ki magunkat.
+        </p>
+        <p>
+          Műsorainkat a modern életvitelhez igazítjuk: friss hírek, kulturális
+          programok, szórakoztató műsorok és digitális tartalmak egyaránt
+          megtalálhatók kínálatunkban. <br> A <strong>NeoTV</strong> elkötelezett
+          amellett, hogy innovatív technológiákkal és friss szemléletmóddal
+          szolgálja ki a 21. századi nézői igényeket.
+        </p>
+        <p>
+          Küldetésünk, hogy hidat képezzünk generációk, kultúrák és platformok
+          között a klasszikus televíziózás értékeit megőrizve, de újragondolva.
+        </p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Minden jog fenntartva. &copy; 2025 NeoTV</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
